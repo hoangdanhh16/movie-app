@@ -33,7 +33,7 @@ const Header = () => {
     <div ref={headerRef} className="header">
       <div className="header__wrap container">
         <div className="dashboard">
-          <Link to="/" >Movies App</Link>
+          <a href="/" >Movies App</a>
         </div>
         <ul className="header__nav">
           {
