@@ -1,0 +1,23 @@
+@use '../../scss/' as *;
+
+.skeleton {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 3rem;
+
+    @include tablet {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .card {
+        position: relative;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 160%;
+        border-radius: 16px;
+        margin-bottom: 1rem; 
+    }
+    
+}
